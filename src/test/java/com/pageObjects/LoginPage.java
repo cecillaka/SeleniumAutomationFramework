@@ -13,13 +13,13 @@ WebDriver driverl;
 	driverl=driver;
 	PageFactory.initElements(driver, this);
 }
-@FindBy(name = "uid")
+@FindBy(xpath = "//label//input[@id='id_userLoginId']")
 WebElement userNameInput;
 
-@FindBy(name="password")
+@FindBy(xpath="//label//input[@id='id_password']")
 WebElement passwordInput;
 
-@FindBy(name = "btnLogin")
+@FindBy(xpath = "//button[@class='btn login-button btn-submit btn-small']")
 WebElement loginBtn;
 
 

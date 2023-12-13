@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-28T15:42:32 SAST" name="InternetBanking " finished-at="2023-05-28T15:42:45 SAST" duration-ms="12941">
+  <suite started-at="2023-12-13T19:26:38 GMT" name=" Testing on Browser" finished-at="2023-12-13T19:27:02 GMT" duration-ms="24146">
     <groups>
     </groups>
-    <test started-at="2023-05-28T15:42:32 SAST" name="Banking App Test" finished-at="2023-05-28T15:42:45 SAST" duration-ms="12941">
+    <test started-at="2023-12-13T19:26:38 GMT" name="Banking App Test on firefox" finished-at="2023-12-13T19:27:02 GMT" duration-ms="24146">
       <class name="com.testCases.LoginTestCase_001">
-        <test-method is-config="true" signature="SetUpMethod(java.lang.String)[pri:0, instance:com.testCases.LoginTestCase_001@1151e434]" started-at="2023-05-28T15:42:32 SAST" name="SetUpMethod" finished-at="2023-05-28T15:42:41 SAST" duration-ms="8519" status="PASS">
+        <test-method is-config="true" signature="SetUpMethod(java.lang.String)[pri:0, instance:com.testCases.LoginTestCase_001@29526c05]" started-at="2023-12-13T19:26:38 GMT" name="SetUpMethod" finished-at="2023-12-13T19:27:00 GMT" duration-ms="21838" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpMethod -->
-        <test-method signature="logInTest()[pri:0, instance:com.testCases.LoginTestCase_001@1151e434]" started-at="2023-05-28T15:42:41 SAST" name="logInTest" finished-at="2023-05-28T15:42:42 SAST" duration-ms="1064" status="PASS">
+        <test-method signature="login()[pri:0, instance:com.testCases.LoginTestCase_001@29526c05]" started-at="2023-12-13T19:27:00 GMT" name="login" finished-at="2023-12-13T19:27:00 GMT" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logInTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.LoginTestCase_001@1151e434]" started-at="2023-05-28T15:42:42 SAST" name="tearDown" finished-at="2023-05-28T15:42:45 SAST" duration-ms="3277" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.LoginTestCase_001@29526c05]" started-at="2023-12-13T19:27:00 GMT" name="tearDown" finished-at="2023-12-13T19:27:02 GMT" duration-ms="2017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testCases.LoginTestCase_001 -->
-    </test> <!-- Banking App Test -->
-  </suite> <!-- InternetBanking  -->
+    </test> <!-- Banking App Test on firefox -->
+  </suite> <!--  Testing on Browser -->
 </testng-results>

@@ -22,6 +22,9 @@ public class ReadConfig {
 			System.out.println(e.getMessage());
 		}
 	}
+	public String getSeleniunServerURl() {
+		return pro.getProperty("seleniunServerIP");		
+	}
 	
 	public String getApplicationURL() {
 		return pro.getProperty("baseURL");		
@@ -35,9 +38,10 @@ public class ReadConfig {
 		return pro.getProperty("password");		
 	}
 	
-	public String getChromeDriver() {
-		return pro.getProperty("chromeDriver");		
-	}
 	
+	public String getBrowserName() {
+		return pro.getProperty("browserName");		
+	}
+
 
 }
